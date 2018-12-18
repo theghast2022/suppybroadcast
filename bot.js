@@ -35,7 +35,7 @@ client.on('message', message => {
 }
 });
 
-const prefix = '$'
+const prefix = '*'
 
 client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
